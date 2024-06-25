@@ -120,8 +120,8 @@ PRODUCT_PACKAGES += \
 endif
 
 ## Logo
-PRODUCT_HOST_PACKAGES += \
-    res_packer
+#PRODUCT_HOST_PACKAGES += \
+#    res_packer
 
 ## Memtrack
 ifneq ($(TARGET_KERNEL_VERSION),5.4)
